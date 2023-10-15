@@ -19,7 +19,7 @@
 
             <br>
             <br>
-            <button class="button" type="submit">Grade Calculate</button>
+            <button class="button" type="submit">Even Or Odd ?</button>
             <div id="result">
                 <?php
 
@@ -30,7 +30,7 @@
                     $userInputNumber = $_POST['userInputNumber'];
 
                     if ($userInputNumber == 0) {
-                        echo "You have given Zero which as per Google is Even Number";
+                        echo "You have given Zero : which as per Google is , Even Number";
                         return;
                     } else {
                         echo $userInputNumber % 2 == 0 ? "Even Number" : "Odd Number";
